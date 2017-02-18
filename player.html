@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5 Video Player</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="player">
+		<div id="video-container">
+			<div id="screen">
+				<img id="screen-button" src="images/play.png">
+			</div>
+			<video id="video" poster="images/thumbnail.png">
+				<source src="song.mp4">
+			</video>
+
+		</div>
+
+		<div id="pbar-container">
+			<div id="pbar">
+				
+			</div>
+		</div>
+
+		<div id="buttons-container">
+			<img id="play-button" src="images/play.png">
+			<img id="sound-button" src="images/sound.png">
+			<div id="sbar-container">
+				<div id="sbar"></div>
+			</div>
+			<div id="time-field"></div>
+			<img id="fullscreen-button" src="images/fullscreen.png">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/player.js"></script>
+	</body>
+</html>
